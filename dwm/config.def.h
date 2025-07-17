@@ -35,13 +35,29 @@ static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "" };
 #define RULE(...){ __VA_ARGS__ },
 
 static const Rule rules[] = {
+    
+    /* Terminal */
 	RULE(.class = "st-256color", .isterminal = 1, .tags = 1 << 0, .switchtotag = 1)
-	RULE(.class = "firefox", .tags = 1 << 1, .switchtotag = 1)
+	
+    /* Browser */
+    RULE(.class = "firefox", .tags = 1 << 1, .switchtotag = 1)
    	RULE(.class = "Chromium", .tags = 1 << 1, .switchtotag = 1)
-	RULE(.class = "Nvidia-settings", .isfloating = 1)
+    RULE(.class = "Thorium-browser", .tags = 1 << 1, .switchtotag = 1)
+	
+    /* Nvidia */
+    RULE(.class = "Nvidia-settings", .isfloating = 1)
+
+    /* Volume control */
 	RULE(.class = "pavucontrol", .isfloating = 1)
+
+    /* Explorer */
+	RULE(.class = "Nemo", .tags = 1 << 2, .switchtotag = 1, .isterminal = 1)
 	RULE(.class = "Pcmanfm", .tags = 1 << 2, .switchtotag = 1, .isterminal = 1)
+    
+    /* Telegram */
 	RULE(.class = "TelegramDesktop", .tags = 1 << 3, .switchtotag = 1)
+    
+    /* Music */
     RULE(.class = "com.github.th_ch.youtube_music", .tags = 1 << 4, .switchtotag = 1)
 };
 
