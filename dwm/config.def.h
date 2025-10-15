@@ -1,9 +1,9 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 20;       /* snap pixel */
-static const unsigned int gappx     = 10;        /* gaps between windows */
+static const unsigned int gappx     = 5;        /* gaps between windows */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -79,6 +79,10 @@ static const Rule rules[] = {
 
     /* VLC */
     RULE(.class = "Vlc", .isfloating = 1)
+
+    /* Calculator */
+    RULE(.class = "Galculator", .isfloating = 1)
+
 };
 
 /* layout(s) */
