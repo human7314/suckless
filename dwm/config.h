@@ -80,6 +80,7 @@ static const Rule rules[] = {
 
     /* VLC */
     RULE(.class = "Vlc", .isfloating = 1)
+    RULE(.class = "mpv", .tags = 1 << 3, .switchtotag = 1)
 
     /* Calculator */
     RULE(.class = "Galculator", .isfloating = 1)
