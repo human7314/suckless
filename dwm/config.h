@@ -3,11 +3,11 @@
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 20;       /* snap pixel */
-static const unsigned int gappx     = 5;        /* gaps between windows */
+static const unsigned int gappx     = 0;        /* gaps between windows */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int user_bh            = 15;        /* 2 is the default spacing around the bar's font */
+static const int user_bh            = 20;        /* 2 is the default spacing around the bar's font */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11", "Noto Color Emoji:size=11" };
 
 /* colours */
