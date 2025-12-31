@@ -20,7 +20,7 @@ static char selfgcolor[]       = "#CDD6F4";
 static char selbgcolor[]       = "#1E1E2E";
 static char selbordercolor[]   = "#89B4FA";
 
-static char statusfgcolor[]    = "#A6ADC8";
+static char statusfgcolor[]    = "#eed49f";
 static char statusbgcolor[]    = "#1E1E2E";
 
 static char tagsselcolor[]     = "#eed49f";
