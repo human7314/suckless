@@ -11,7 +11,7 @@
 #define CLICKABLE_BLOCKS 1
 
 // Control whether a leading delimiter should be prepended to the status.
-#define LEADING_DELIMITER 1
+#define LEADING_DELIMITER 0
 
 // Control whether a trailing delimiter should be appended to the status.
 #define TRAILING_DELIMITER 1
