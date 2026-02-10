@@ -82,9 +82,6 @@ static const Rule rules[] = {
     /* Music */
     RULE(.class = "com.github.th_ch.youtube_music", .tags = 1 << 3, .switchtotag = 1)
 
-    /* Wallpaper */
-    RULE(.class = "Nitrogen", .isfloating = 1)
-
     /* VLC */
     RULE(.class = "Vlc", .isfloating = 1)
     RULE(.class = "mpv", .tags = 1 << 3, .switchtotag = 1)
@@ -94,6 +91,9 @@ static const Rule rules[] = {
 
     /* Discord */
     RULE(.class = "discord", .tags = 1 << 5, .switchtotag = 1)
+
+    /* Code */
+    RULE(.class = "Code", .tags = 1 << 6, .switchtotag = 1)
 };
 
 /* layout(s) */
