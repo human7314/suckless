@@ -11,14 +11,13 @@
 #define CLICKABLE_BLOCKS 1
 
 // Control whether a leading delimiter should be prepended to the status.
-#define LEADING_DELIMITER 0
+#define LEADING_DELIMITER 1
 
 // Control whether a trailing delimiter should be appended to the status.
 #define TRAILING_DELIMITER 1
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("", "sb-pomodoro", 1, 5) \
 	X("", "sb-mem",  60, 1)    \
 	X("", "sb-temp", 10, 2)    \
 	X("", "sb-date", 3600, 3)    \
