@@ -10,6 +10,10 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int user_bh            = 20;        /* 2 is the default spacing around the bar's font */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11", "Noto Color Emoji:size=11", "Noto Sans Devanagari:size=11" };
 
+/* Icon */
+#define ICONSIZE 16   /* icon size */
+#define ICONSPACING 5 /* space between icon and title */
+
 /* systray */
 static const unsigned int systraypinning  = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft   = 0;    /* 0: systray in the right corner, >0: systray on left of status text */
