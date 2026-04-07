@@ -11,8 +11,8 @@ static const int user_bh            = 20;        /* 2 is the default spacing aro
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11", "Noto Color Emoji:size=11", "Noto Sans Devanagari:size=11" };
 
 /* Icon */
-#define ICONSIZE 16   /* icon size */
-#define ICONSPACING 5 /* space between icon and title */
+#define ICONSIZE 19   /* icon size */
+#define ICONSPACING 12 /* space between icon and title */
 
 /* systray */
 static const unsigned int systraypinning  = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
